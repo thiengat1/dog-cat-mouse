@@ -1,8 +1,17 @@
-var Dog=require('./Dog')
 var Cat=require('./Cat')
 var Mouse=require('./Mouse')
+var Dog=require('./Dog')
 
-var dog=new Dog('tom');
-var tom=new Cat();
-dog.eat(tom);
-console.log(dog);
+var mouse=new Mouse('Micky');
+var cat=new Cat();
+var dog=new Dog();
+try{
+	cat.eat(dog);
+
+}
+catch(er)
+{
+	console.log('dfgdgdfgdgdg');
+}
+	console.log(cat);
+
